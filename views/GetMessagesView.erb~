@@ -1,8 +1,10 @@
 <h1><%= @title %></h1>
 Messages reçu:
 <% @messages.each do |slice| %>
-	<p>--Auteur :<%= slice["autor"] %></p>
-	<p>Message:<%= slice["message"] %></p>
+	<p>--Auteur : <%= slice["autor"] %></p>
+	<p>Message: <%= slice["message"] %></p>
 	</br>	
 <% end %>
 </br>------------Fin des Messages.
+</br>
+<p>Accueil : </p><a href="/SentMessage">Envoyer</a>

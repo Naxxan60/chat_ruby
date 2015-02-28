@@ -2,11 +2,6 @@ require 'sinatra'
 require 'mongo'
 include Mongo
 
-get '/' do
-  	@title = 'Chat en ruby'
-	erb :IndexView
-end
-
 get '/GetMessages' do
   	@title = 'Get All Messages'
 	mongo_client = MongoClient.new("ds039341.mongolab.com", 39341)
