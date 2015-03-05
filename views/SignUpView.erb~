@@ -1,0 +1,10 @@
+<h1>Sign Up</h1>
+
+<form action="SignUp" method="post">
+
+  login: <input type = "text" name ="login">
+  password: <input type = "text" name ="password">
+
+<input type = "submit" value="Submit">
+
+</form>

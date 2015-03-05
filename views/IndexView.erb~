@@ -1,3 +1,4 @@
 <h1><%= @title %></h1>
 <p>Lire vos messages : </p><a href="/GetMessages">Mes messages</a>
-<p>Ecrire un message : </p><a href="/SentMessages">Envoyer</a>
+<p>Ecrire un message : </p><a href="/SendMessage">Envoyer</a>
+<p>S'inscrire : </p><a href="/SignUp">Sign Up</a>
