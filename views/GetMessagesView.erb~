@@ -7,4 +7,4 @@ Messages reçu:
 <% end %>
 </br>------------Fin des Messages.
 </br>
-<p>Accueil : </p><a href="/SentMessage">Envoyer</a>
+<p><a href="../">Accueil</a></p>

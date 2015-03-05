@@ -1,0 +1,16 @@
+<h1>EnvoiMessages</h1>
+
+<%= form_for(@user_id) do |f| %>
+  <div class="field">
+    <%= f.label :autor %><br />
+    <%= f.text_field :autor %>
+  </div>
+   <div class="field">
+    <%= f.label :messages %><br />
+    <%= f.text_field :messages %>
+  </div>
+  <div class="actions">
+    <%= f.submit "EnvoiMessages" %>
+  </div>
+<% end %>
+<p><a href="../">Accueil</a></p>
